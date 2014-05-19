@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>nxt_lisp</name>
+  <version>0.0.0</version>
+  <description>NXT Lisp Tutorial Project</description>
+
+  <maintainer email="winkler@cs.uni-bremen.de">Jan Winkler</maintainer>
+
+  <license>BSD</license>
+  <author email="winkler@cs.uni-bremen.de">Jan Winkler</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>nxt_msgs</build_depend>
+  <build_depend>roslisp</build_depend>
+  <build_depend>roslisp_utilities</build_depend>
+  
+  <run_depend>nxt_msgs</run_depend>
+  <run_depend>roslisp</run_depend>
+  <run_depend>roslisp_utilities</run_depend>
+</package>
